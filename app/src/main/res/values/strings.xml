@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Popular Movies</string>
+
+    <!-- Titles -->
+    <string name="title_activity_movie_details">Movie Details</string>
+    <string name="image_movie_poster">Movie Poster Thumbnail</string>
+
+    <!-- UI Texts -->
+    <string name="header_release_date">Release Date</string>
+    <string name="header_vote_average">Vote Average</string>
+
+    <!-- Runtime error messages -->
+    <string name="no_release_date_found">No release date was found</string>
+    <string name="no_description_found">No movie description was found</string>
+
+    <!-- Lifetime and Bundle -->
+    <string name="parcel_movie">PARCEL_MOVIE</string>
+
+    <!-- Preferences Items -->
+    <string name="pref_sort_method_key">SORT_METHOD</string>
+    <string name="pref_sort_vote_avg_desc_key">SORT_VOTE_AVERAGE_DESC</string>
+    <string name="pref_sort_pop_desc_key">SORT_POPULARITY_DESC</string>
+
+    <!-- TMDb sort strings for querry URL -->
+    <string name="tmdb_sort_pop_desc">popularity.desc</string>
+    <string name="tmdb_sort_vote_avg_desc">vote_average.desc</string>
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+        **** INSTRUCTION ****
+        Add your MVDb API key to the XML tag below.
+-->
+<resources>
+    <!-- API key for themoviedb.org -->
+	<string name="my_moviedb_key"></string>
+</resources>
