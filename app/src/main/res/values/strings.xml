@@ -14,17 +14,19 @@
     <!-- Runtime error messages -->
     <string name="no_release_date_found">No release date was found</string>
     <string name="no_description_found">No movie description was found</string>
+    <string name="no_movie_data_found">No movie data available</string>
+    <string name="no_internet_connection">Please check internet connection</string>
 
     <!-- Lifetime and Bundle -->
     <string name="parcel_movie">PARCEL_MOVIE</string>
 
     <!-- Preferences Items -->
-    <string name="pref_sort_method_key">SORT_METHOD</string>
-    <string name="pref_sort_vote_avg_desc_key">SORT_VOTE_AVERAGE_DESC</string>
-    <string name="pref_sort_pop_desc_key">SORT_POPULARITY_DESC</string>
+    <string name="pref_querry_url_key">MOVIE_QUERRY_URL_KEY</string>
+    <string name="pref_top_rated_desc_key">MOVIE_TOP_RATED_DESC</string>
+    <string name="pref_popular_desc_key">MOVIE_POPULAR_DESC</string>
 
-    <!-- TMDb sort strings for querry URL -->
-    <string name="tmdb_sort_pop_desc">popularity.desc</string>
-    <string name="tmdb_sort_vote_avg_desc">vote_average.desc</string>
+    <!-- TMDb querry URLs -->
+    <string name="tmdb_popular_movie_url">https://api.themoviedb.org/3/movie/popular?</string>
+    <string name="tmdb_top_rated_movie_url">https://api.themoviedb.org/3/movie/top_rated?</string>
 
 </resources>
